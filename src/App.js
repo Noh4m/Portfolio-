@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import "./index.css"
+import "./reset.css"
+import TextWithBar from "./components/TextWithBar";
+import IconAndPresentation from "./components/IconAndPresentation";
+import data from "./data/data";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <>
+            <div className="page1 bg-black h-screen text-white flex font-sans">
+                <TextWithBar/>
+                <IconAndPresentation firstName={data.firstName} work={data.work} hearderSubTitle={data.hearderSubTitle}/>
+            </div>
+            <div className="page2 bg-black text-white h-screen">
+                    <p> lolilol</p>
+            </div>
+        </>
+    );
 }
 
 export default App;
