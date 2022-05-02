@@ -9,7 +9,7 @@
 //import tailWindcss from "../image/logoTailWindCss.svg"
 
 
-export default {
+const data = {
 
     //PEROSNNAL INFO ---------------
     firstName: "Noham",
@@ -102,3 +102,5 @@ export default {
         }
     ]
 }
+
+export default data;
