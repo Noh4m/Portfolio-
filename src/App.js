@@ -18,7 +18,7 @@ function App() {
                 <TextWithBar title="Sommaire"/>
                 <ArrowScroll />
 
-                <div className="md:pl-40 md:pt-20 flex relative items-center flex-col top-32 ">
+                <div className="md:pl-40 md:pt-20 flex relative items-center flex-col top-28 ">
                     <div className="">
                         <p className="text-sm leading-8   " >0 - À propos de moi </p>
                         <p className="text-sm leading-8   ">1 - Compétences  </p>
