@@ -14,7 +14,7 @@ function App() {
                 <IconAndPresentation firstName={data.firstName} work={data.work} hearderSubTitle={data.hearderSubTitle}/>
                 <ArrowScroll />
             </div>
-            <div className="page2 bg-black text-white h-screen relative font-sans">
+            <div className="page2 bg-amber-400 text-white h-screen relative font-sans">
                 <TextWithBar title="Sommaire"/>
                 <ArrowScroll />
 
