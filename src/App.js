@@ -18,7 +18,7 @@ function App() {
                 <TextWithBar title="Sommaire"/>
                 <ArrowScroll />
 
-                <div className="flex relative items-center flex-col top-20 tablet:top-4 tablet:flex-col laptop:flex-row laptop:left-1/2 laptop:-translate-x-1/2 laptop:flex-wrap laptop:top-1/2 laptop:mx-auto laptop:-translate-y-1/2 laptop:absolute laptop:w-full laptop:justify-between">
+                <div className="container mx-auto flex relative items-center flex-col top-20 tablet:top-4 tablet:flex-col laptop:flex-row laptop:left-1/2 laptop:-translate-x-1/2 laptop:flex-wrap laptop:top-1/2 laptop:mx-auto laptop:-translate-y-1/2 laptop:absolute laptop:w-full laptop:justify-between">
                     <div className="md:w-1/3 md:ml-40 ">
                         <p className="text-sm leading-8   md:text-2xl md:leading-14" >0 - À propos de moi </p>
                         <p className="text-sm leading-8   md:text-2xl md:leading-14">1 - Compétences  </p>
