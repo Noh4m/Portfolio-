@@ -38,7 +38,7 @@ function App() {
                 </div>
             </div>
             <div className="page3 text-black h-screen relative font-sans laptop:px-20 ">
-                <div className="flex flex-col laptop:items-center laptop:mb-16">
+                <div className="flex flex-col laptop:items-center laptop:mb-16 laptop:flex-row">
                     <IconAndPresentation firstName={data.firstName} work={data.work}/>
                     <p className="px-6 text-sm mt-5 laptop:text-2xl laptop:w-1/2 laptop:ml-10">Je suis un développeur junior qui rêve de devenir un développeur
                         full stack. Actuellement,
