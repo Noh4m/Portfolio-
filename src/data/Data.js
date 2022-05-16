@@ -1,15 +1,15 @@
 /// LOGO TECH ---------------
-//import css from "../image/icons8-css3-100.png"
-//import html from "../image/icons8-html-5-100.png"
-//import javaScript from "../image/icons8-javascript-100.png"
-//import react from "../image/icons8-react100.png"
-//import python from "../image/icons8-python-100.png"
-//import php from "../image/logoPhp.svg"
-//import git from "../image/icons8-git-100.png"
-//import tailWindcss from "../image/logoTailWindCss.svg"
+import  css from "../image/icons8-css3-100.png"
+import html from "../image/icons8-html-5-100.png"
+import javaScript from "../image/icons8-javascript-100.png"
+import react from "../image/icons8-react100.png"
+import python from "../image/icons8-python-100.png"
+/// import php from "../image/logoPhp.svg"
+import git from "../image/icons8-git-100.png"
+/// import tailWindcss from "../image/logoTailWindCss.svg"
 
 
-const data = {
+const Data = {
 
     //PEROSNNAL INFO ---------------
     firstName: "Noham",
@@ -100,7 +100,38 @@ const data = {
             AchievementParagraph: "Refonte graphique page d'accueil du site IconClass",
             link: "https://www.figma.com/embed?embed_host=notion&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FCt2Bvj49HWKhh9F9mNq0eb%2FProjet-DisMoi%3Fnode-id%3D0%253A1"
         }
-    ]
+    ],
+
+    /// LOGO
+
+     Logo: [
+        {
+            id: 12,
+            logo: css
+        },
+        {
+            id: 13,
+            logo: html
+        },
+        {
+            id: 14,
+            logo: javaScript
+        },
+        {
+            id: 15,
+            logo: react
+        },
+        {
+            id: 16,
+            logo: python
+        },
+        {
+            id: 18,
+            logo: git
+        },
+
+    ],
+
 }
 
-export default data;
+export default Data;
