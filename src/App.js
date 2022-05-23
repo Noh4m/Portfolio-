@@ -5,26 +5,27 @@ import IconAndPresentation from "./components/IconAndPresentation";
 import img from "./image/Market launch-amico.svg"
 import data from "./data/Data";
 import ArrowScroll from "./components/ArrowScroll";
+import GridProject from "./components/GridProject";
 
 function App() {
 
 
     return (
         <>
-            <div className="page1 bg-black relative h-screen text-white flex font-sans">
+            <div className="page1 bg-black relative h-screen text-white flex font-sans ">
                 <TextWithBar title="Portfolio ." date="2022"/>
-                <div className=" absolute top-1/2 left-1/2 -translate-y-3/4  -translate-x-2/4">
+                <div className=" absolute top-1/2 left-1/2 -translate-y-3/4  -translate-x-2/4  laptop:left-1/2  laptop:mx-auto">
                     <IconAndPresentation firstName={data.firstName} work={data.work}
                                          hearderSubTitle={data.hearderSubTitle}/>
                 </div>
                 <ArrowScroll/>
             </div>
-            <div className="page2 bg-black text-white h-screen relative font-sans">
+            <div className="page2 bg-black text-white h-screen relative font-sans ">
                 <TextWithBar title="Sommaire"/>
                 <ArrowScroll/>
 
                 <div
-                    className="mx-auto flex relative items-center flex-col top-20 tablet:top-4 tablet:flex-col laptop:flex-row laptop:left-1/2 laptop:-translate-x-1/2 laptop:flex-wrap laptop:top-1/2 laptop:mx-auto laptop:-translate-y-1/2 laptop:absolute laptop:w-full laptop:justify-between">
+                    className="mx-auto flex relative items-center flex-col top-20 tablet:top-4 tablet:flex-col laptop:flex-row laptop:left-1/2 laptop:-translate-x-1/2 laptop:flex-wrap laptop:top-1/2 laptop:mx-auto laptop:-translate-y-1/2 laptop:absolute laptop:w-full laptop:justify-between laptop:container laptop:mx-auto">
                     <div className="md:w-1/3 md:ml-40 ">
                         <p className="text-sm leading-8   md:text-2xl md:leading-14">0 - À propos de moi </p>
                         <p className="text-sm leading-8   md:text-2xl md:leading-14">1 - Compétences </p>
@@ -37,7 +38,7 @@ function App() {
 
                 </div>
             </div>
-            <div className="page3 text-black h-screen relative font-sans laptop:px-20 ">
+            <div className="page3 text-black h-full relative font-sans laptop:container laptop:mx-auto">
                 <div className="flex flex-col laptop:items-center laptop:mb-16 laptop:flex-row">
                     <IconAndPresentation firstName={data.firstName} work={data.work}/>
                     <p className="px-6 text-sm mt-5 laptop:text-2xl laptop:w-1/2 laptop:ml-10">Je suis un développeur junior qui rêve de devenir un développeur
@@ -50,11 +51,11 @@ function App() {
                         <h3 className="pl-6 laptop:pl-0">Stack technique</h3>
                         <div className="grid grid-cols-3 place-items-center px-6 laptop:mt-16">
                             {data.Logo.map((data) => (
-
                                 <img src={data.logo} alt="logo" key={data.id} className="w-12 mt-3 laptop:w-16"/>
                             ))}
                         </div>
                     </div>
+
                     {/*Experience PRO*/}
                     <div className="px-6 mt-10 laptop:w-1/3 laptop:mt-0">
                         <h3 className="mb-3">Expériences professionnelles</h3>
@@ -84,6 +85,14 @@ function App() {
                     </div>
                 </div>
                 <ArrowScroll/>
+            </div>
+
+            <div className="page4 container mx-auto px-6 text-black h-screen relative font-sans">
+                <div className="pt-11">
+                    <h2 className="text-5xl mb-6">Réalisations</h2>
+                    <GridProject />
+                </div>
+
             </div>
         </>
     );

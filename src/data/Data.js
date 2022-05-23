@@ -84,19 +84,19 @@ const Data = {
     Achievements: [
         {
             id: 9,
-            AchievementTitle: "Shopify",
+            AchievementTitle: "Réalisation Shopify",
             AchievementParagraph: "Création d'un site e-commerce durant un stage avec l'utilisation de shopify",
             link: "https://www.dlm-sas.fr"
         },
         {
             id: 10,
-            AchievementTitle: "UX/UI",
+            AchievementTitle: "Réalisation UX/UI",
             AchievementParagraph: "Refonte graphique page d'accueil du site Dimois",
             link: "https://www.figma.com/embed?embed_host=notion&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FCt2Bvj49HWKhh9F9mNq0eb%2FProjet-DisMoi%3Fnode-id%3D0%253A1"
         },
         {
             id: 11,
-            AchievementTitle: "UX/UI",
+            AchievementTitle: "Réalisation UX/UI",
             AchievementParagraph: "Refonte graphique page d'accueil du site IconClass",
             link: "https://www.figma.com/embed?embed_host=notion&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FCt2Bvj49HWKhh9F9mNq0eb%2FProjet-DisMoi%3Fnode-id%3D0%253A1"
         }
