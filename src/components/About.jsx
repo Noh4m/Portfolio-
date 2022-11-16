@@ -27,8 +27,8 @@ function About() {
 					<div className="px-6 mt-10 laptop:w-1/3 laptop:mt-0">
 						<h3 className="mb-3 md:text-xl">Expériences professionnelles</h3>
 
-						{data.xpPro.map(data => (
-							<div className="bg-zinc-100 text-black mb-4 p-3">
+						{data.xpPro.map((data, index) => (
+							<div className="bg-zinc-100 text-black mb-4 p-3" key={index}>
 								<p className="mb-1"> {data.entreprise}</p>
 								<p className="mb-1">{data.date}</p>
 								<p className="mb-1">{data.titleJob}</p>
@@ -41,8 +41,8 @@ function About() {
 					<div className="px-6 mt-10 laptop:w-1/3 laptop:mt-0">
 						<h3 className="mb-3 md:text-xl">Formation</h3>
 
-						{data.Degree.map(data => (
-							<div className="bg-zinc-100 text-black mb-4 p-3">
+						{data.Degree.map((data, index) => (
+							<div className="bg-zinc-100 text-black mb-4 p-3" key={index}>
 								<p className="mb-1"> {data.degreeSchool}</p>
 								<p className="mb-1">{data.degreeTitle}</p>
 								<p className="mb-1">{data.degreeDate}</p>
