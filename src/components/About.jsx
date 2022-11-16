@@ -1,7 +1,6 @@
 import React from 'react';
 import IconAndPresentation from "../components/IconAndPresentation";
 import data from "../data/Data";
-import ArrowScroll from "../components/ArrowScroll";
 
 function About() {
     return (
