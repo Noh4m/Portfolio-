@@ -1,10 +1,11 @@
 import React from 'react';
 import IconAndPresentation from "../components/IconAndPresentation";
 import data from "../data/Data";
+import ArrowScroll from "../components/ArrowScroll";
 
 function About() {
     return (
-        <section className="page3 text-white h-screen relative font-sans laptop:container laptop:mx-auto">
+        <section className="page3 text-white h-max md:h-screen relative font-sans laptop:container laptop:mx-auto">
 				<div className="flex pt-11 flex-col laptop:items-center laptop:mb-16 laptop:flex-row">
 					<IconAndPresentation firstName={data.firstName} work={data.work}/>
 					<p className="px-6 text-sm mt-5 laptop:text-2xl laptop:w-1/2 laptop:ml-10">Je suis un développeur junior qui rêve de devenir un développeur
@@ -50,6 +51,7 @@ function About() {
 
 					</div>
 				</div>
+                <ArrowScroll color="borderWhite" />
 			</section>
     );
 }

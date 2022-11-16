@@ -10,7 +10,7 @@ function Cover(props) {
 				<TextWithBar title="Portfolio ." date="2022"/>
 				<div className=" absolute top-1/2 left-1/2 -translate-y-3/4  -translate-x-2/4  laptop:left-1/2  laptop:mx-auto">
 					<IconAndPresentation firstName={data.firstName} work={data.work}
-										 hearderSubTitle={data.hearderSubTitle}/>
+										hearderSubTitle={data.hearderSubTitle}/>
 				</div>
 				<ArrowScroll color="borderWhite" />
 		</section>

@@ -9,7 +9,7 @@ function GridProject(props) {
             <div className="grid grid-cols-1 content-center gap-y-10 laptop:mt-16 text-white laptop:grid-cols-3">
                 {data.Achievements.map(data =>  (
                     <div className=" group relative bg-grey-500 h-52 laptop:mx-4 laptop:h-[266px]" key={data.id}>
-                        <a href={data.link} className="absolute w-full h-fit p-5 text-center bottom-0  bg-slate-900/[.50]  laptop:bg-slate-900/[.80]  group-hover:visible ">
+                        <a href={data.link} target="_blank" className="absolute w-full h-fit p-5 text-center bottom-0  bg-slate-900/[.50]  laptop:bg-slate-900/[.80]  group-hover:visible " rel="noreferrer">
                             <p className="leading-6"> {data.AchievementTitle} </p>
                             <p className="leading-6"> {data.AchievementParagraph} </p>
                         </a>
